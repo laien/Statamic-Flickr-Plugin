@@ -9,7 +9,7 @@ By the way, this plugin is totaly inspired by Jack McDade's great [Plugin for Dr
 ## Installing
 1. Download the zip file (or clone via git) and unzip it or clone the repo into `/_add-ons/`.
 2. Ensure the folder name is `flickr`.
-3. Go to [Flickr - Create an App][http://www.flickr.com/services/apps/create/) and create your own app.
+3. Go to [Flickr - Create an App](http://www.flickr.com/services/apps/create/) and create your own app.
 4. Copy the API key into the plugin
 
 
