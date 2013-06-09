@@ -40,28 +40,28 @@ Id of the set you wish to request.
 Limit the number of photos returned.
 
 ### Variables & Variable Pairs
-- {{ id }}
-- {{ primary }}
-- {{ owner }}
-- {{ ownername }}
+- `{{ id }}`
+- `{{ primary }}`
+- `{{ owner }}`
+- `{{ ownername }}`
 
 #### Variable Pair: *:Photo*
 
     {{ photo }} {{ /photo }}
 
-- {{ id }}
-- {{ secret }}
-- {{ server }}
-- {{ farm }}
-- {{ title }}
-- {{ image_teaser_url }}
-- {{ isprimary }}
-- {{ url_m }}  (Medium)
-- {{ height_m }}
-- {{ width_m }}
-- {{ url_l }} (Large)
-- {{ height_l }}
-- {{ width_l }}
+- `{{ id }}`
+- `{{ secret }}`
+- `{{ server }}`
+- `{{ farm }}`
+- `{{ title }}`
+- `{{ image_teaser_url }}`
+- `{{ isprimary }}`
+- `{{ url_m }}`  (Medium)
+- `{{ height_m }}`
+- `{{ width_m }}`
+- `{{ url_l }}` (Large)
+- `{{ height_l }}`
+- `{{ width_l }}`
 
 You can read more about [Flickr´s API Method - flickr.photosets.getPhotos](http://www.flickr.com/services/api/flickr.photosets.getPhotos.html).
 
