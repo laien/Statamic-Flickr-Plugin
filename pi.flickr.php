@@ -15,8 +15,8 @@ class Plugin_Flickr extends Plugin
 
 		public function sets()
 		{
-			$limit	= $this->fetch_param('limit', 5, 'is_numeric');
-			$id = $this->fetch_param('id', null);
+			$limit	= $this->fetchParam('limit', 5, 'is_numeric');
+			$id = $this->fetchParam('id', null);
 			$params = "flickr.photosets.getPhotos&photoset_id=$id&extras=url_m,url_l&per_page=$limit";
 			
 			if ($response = $this->flickr_curl($params)) {
@@ -28,7 +28,7 @@ class Plugin_Flickr extends Plugin
 
 		public function api()
 		{
-			$params = $this->fetch_param('request', false);
+			$params = $this->fetchParam('request', false);
 
 			if ($params) {
 				if ($response = $this->flickr_curl($params)) {
@@ -50,8 +50,9 @@ class Plugin_Flickr extends Plugin
 			
 			if ($contents)
 				return json_decode($contents);
+			}
 				
-				echo "Flickr requires the CURL library to be installed."; // else
+			echo "Flickr requires the CURL library to be installed."; // else
 		}
 }	
 
