@@ -50,7 +50,6 @@ class Plugin_Flickr extends Plugin
 			
 			if ($contents)
 				return json_decode($contents);
-			}
 				
 			echo "Flickr requires the CURL library to be installed."; // else
 		}
