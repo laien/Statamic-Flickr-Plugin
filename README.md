@@ -28,7 +28,7 @@ By the way, this plugin is totaly inspired by Jack McDade's great [Plugin for Dr
 
 ### Parameters
 
-#### Player `id`
+#### ID `id`
 
 Id of the set you wish to request.
 
